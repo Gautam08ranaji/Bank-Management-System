@@ -31,21 +31,21 @@ public class Login extends JFrame implements ActionListener{
         
         JLabel cardno = new JLabel("Card No:");
         add(cardno);
-        cardno.setFont(new Font("Arial",Font.BOLD,14));
-        cardno.setBounds(125, 150, 200, 40);
+        cardno.setFont(new Font("Arial",Font.BOLD,20));
+        cardno.setBounds(175, 155, 200, 40);
         cardTextFields = new JTextField();
         cardTextFields.setBounds(300,160,250,30);
         add(cardTextFields);
         
         JLabel pin = new JLabel("Pin:");
         add(pin);
-        pin.setFont(new Font("Arial",Font.BOLD,14));
-        pin.setBounds(125, 210, 150, 40);
+        pin.setFont(new Font("Arial",Font.BOLD,20));
+        pin.setBounds(175, 215, 150, 40);
         pinTextFields = new JPasswordField();
         pinTextFields.setBounds(300,220,250,30);
         add(pinTextFields);
         
-         loginbutton = new JButton("SIGN IN");
+        loginbutton = new JButton("LOG IN");
         loginbutton.setFont(new Font("Raleway",Font.BOLD,13));
         loginbutton.setBackground(Color.BLACK);
         loginbutton.setForeground(Color.WHITE);
